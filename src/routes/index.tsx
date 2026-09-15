@@ -348,8 +348,10 @@ function Index() {
               </span>
             </h1>
             <p className="mt-8 max-w-xl text-lg text-muted-foreground">
-              Lucre a cada venda com o seu próprio cupom! Receba nossos produtos, divulgue para
-              sua audiência e garanta comissões diárias.
+              Sua história pode levar outras pessoas mais longe.
+              <br />
+              Receba produtos, compartilhe sua rotina com seu cupom exclusivo e transforme sua
+              influência em reconhecimento, benefícios e ganhos.
             </p>
             <div className="mt-10 flex flex-wrap items-center justify-center gap-6">
               <Cta location="hero" />
