@@ -19,6 +19,7 @@ import img2 from "@/assets/time-underdogz.png";
 import reelA from "@/assets/videos/reel-a.mp4";
 import reelB from "@/assets/videos/reel-b.mp4";
 import reelC from "@/assets/videos/reel-c.mp4";
+import reelCaio from "@/assets/videos/reel-caio-tattoos.mp4";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -144,6 +145,7 @@ const creatorVideos = [
   { src: reelA, handle: "@julia_gassen" },
   { src: reelB, handle: "@vilela" },
   { src: reelC, handle: "@caduassayag" },
+  { src: reelCaio, handle: "@caiotattoos" },
 ];
 
 
