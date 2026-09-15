@@ -20,6 +20,7 @@ import reelA from "@/assets/videos/reel-a.mp4";
 import reelB from "@/assets/videos/reel-b.mp4";
 import reelC from "@/assets/videos/reel-c.mp4";
 import reelCaio from "@/assets/videos/reel-caio-tattoos.mp4";
+import reelJulia2 from "@/assets/videos/reel-julia-gassen-2.mp4";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -146,6 +147,7 @@ const creatorVideos = [
   { src: reelB, handle: "@vilela" },
   { src: reelC, handle: "@caduassayag" },
   { src: reelCaio, handle: "@caiotattoos" },
+  { src: reelJulia2, handle: "@julia_gassen" },
 ];
 
 
