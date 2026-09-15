@@ -11,14 +11,14 @@ const socials = [
 ];
 
 import { FloatingBullets } from "@/components/FloatingBullets";
-import logoAsset from "@/assets/underlabz-logo-white.png.asset.json";
-import bannerDesktop from "@/assets/banner-desktop-4.png.asset.json";
-import bannerMobile from "@/assets/banner-mobile-4.png.asset.json";
-import img1 from "@/assets/como-funciona.png.asset.json";
-import img2 from "@/assets/time-underdogz.png.asset.json";
-import reelA from "@/assets/videos/reel-a.mp4.asset.json";
-import reelB from "@/assets/videos/reel-b.mp4.asset.json";
-import reelC from "@/assets/videos/reel-c.mp4.asset.json";
+import logoAsset from "@/assets/underlabz-logo-white.png";
+import bannerDesktop from "@/assets/banner-desktop-4.png";
+import bannerMobile from "@/assets/banner-mobile-4.png";
+import img1 from "@/assets/como-funciona.png";
+import img2 from "@/assets/time-underdogz.png";
+import reelA from "@/assets/videos/reel-a.mp4";
+import reelB from "@/assets/videos/reel-b.mp4";
+import reelC from "@/assets/videos/reel-c.mp4";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -141,9 +141,9 @@ const perks = [
 ];
 
 const creatorVideos = [
-  { src: reelA.url, handle: "@julia_gassen" },
-  { src: reelB.url, handle: "@vilela" },
-  { src: reelC.url, handle: "@caduassayag" },
+  { src: reelA, handle: "@julia_gassen" },
+  { src: reelB, handle: "@vilela" },
+  { src: reelC, handle: "@caduassayag" },
 ];
 
 
@@ -315,7 +315,7 @@ function Index() {
     <div className="min-h-screen overflow-x-hidden">
       <header className="flex items-center justify-center border-b border-border px-6 py-5">
         <a href="/" className="inline-flex">
-          <img src={logoAsset.url} alt="Under Labz" className="h-12 w-auto sm:h-14" />
+          <img src={logoAsset} alt="Under Labz" className="h-12 w-auto sm:h-14" />
         </a>
 
       </header>
@@ -323,9 +323,9 @@ function Index() {
       {/* HERO */}
       <section className="relative" ref={heroRef}>
         <picture>
-          <source media="(min-width: 768px)" srcSet={bannerDesktop.url} />
+          <source media="(min-width: 768px)" srcSet={bannerDesktop} />
           <img
-            src={bannerMobile.url}
+            src={bannerMobile}
             alt="Underdogz — comunidade de creators da Under Labz reunida com o mascote"
             className="block w-full h-auto object-contain"
           />
@@ -393,7 +393,7 @@ function Index() {
               Conheça o Time Underdogz
             </h2>
             <img
-              src={img2.url}
+              src={img2}
               alt="Atletas Under Labz com o mascote Underdogz"
               className="mt-8 w-full rounded-2xl object-cover"
               loading="lazy"
@@ -518,7 +518,7 @@ function Index() {
               <h2 className="text-[clamp(1.75rem,3.6vw,2.9rem)] tracking-tight">Como funciona a parceria</h2>
             </div>
             <img
-              src={img1.url}
+              src={img1}
               alt="Mascote Underdogz anotando o briefing"
               className="aspect-[4/3] w-full rounded-2xl border border-border object-cover md:aspect-[16/10]"
               loading="lazy"
@@ -608,7 +608,7 @@ function Index() {
       </section>
 
       <footer className="px-6 py-10 pb-28 text-center text-sm text-muted-foreground md:pb-10">
-        <img src={logoAsset.url} alt="Under Labz" className="mx-auto h-16 w-auto" loading="lazy" />
+        <img src={logoAsset} alt="Under Labz" className="mx-auto h-16 w-auto" loading="lazy" />
         <p className="mt-2">@underlabzoficial · #BORNTODISRUPT</p>
         <ul className="mt-5 flex flex-wrap items-center justify-center gap-3">
           {socials.map((s) => (
