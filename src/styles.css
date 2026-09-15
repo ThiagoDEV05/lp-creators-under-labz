@@ -36,18 +36,18 @@
 
 :root {
   --radius: 0.25rem;
-  /* Identidade tática Underdogz: grafite/preto + amarelo sinalização */
+  /* Identidade tática Underdogz: grafite/preto + verde militar */
   --background: oklch(0.19 0.008 90);
   --foreground: oklch(0.97 0.005 95);
   --card: oklch(0.25 0.008 95 / 0.6);
   --card-foreground: oklch(0.97 0.005 95);
-  --primary: oklch(0.84 0.16 92);
+  --primary: oklch(0.64 0.11 125);
   --primary-foreground: oklch(0.17 0.01 90);
   --secondary: oklch(0.3 0.012 95);
   --secondary-foreground: oklch(0.97 0.005 95);
   --muted: oklch(0.3 0.01 95);
   --muted-foreground: oklch(0.76 0.012 95);
-  --accent: oklch(0.84 0.16 92);
+  --accent: oklch(0.64 0.11 125);
   --accent-foreground: oklch(0.17 0.01 90);
   --border: oklch(1 0 0 / 12%);
   --ink: oklch(0.13 0.008 90);
@@ -77,10 +77,10 @@
     z-index: -2;
     pointer-events: none;
     background:
-      radial-gradient(40% 35% at 12% 8%, oklch(0.55 0.1 95 / 0.28), transparent 70%),
-      radial-gradient(35% 30% at 88% 22%, oklch(0.45 0.05 110 / 0.3), transparent 70%),
-      radial-gradient(45% 40% at 70% 85%, oklch(0.5 0.09 85 / 0.24), transparent 70%),
-      radial-gradient(30% 30% at 20% 70%, oklch(0.35 0.03 110 / 0.35), transparent 70%);
+      radial-gradient(40% 35% at 12% 8%, oklch(0.5 0.08 125 / 0.28), transparent 70%),
+      radial-gradient(35% 30% at 88% 22%, oklch(0.4 0.05 125 / 0.3), transparent 70%),
+      radial-gradient(45% 40% at 70% 85%, oklch(0.45 0.07 125 / 0.24), transparent 70%),
+      radial-gradient(30% 30% at 20% 70%, oklch(0.33 0.03 125 / 0.35), transparent 70%);
     filter: blur(30px);
     animation: aurora 26s ease-in-out infinite alternate;
   }
@@ -93,8 +93,8 @@
     pointer-events: none;
     opacity: 0.5;
     background-image:
-      linear-gradient(to right, oklch(0.85 0.14 92 / 0.06) 1px, transparent 1px),
-      linear-gradient(to bottom, oklch(0.85 0.14 92 / 0.06) 1px, transparent 1px);
+      linear-gradient(to right, oklch(0.64 0.11 125 / 0.08) 1px, transparent 1px),
+      linear-gradient(to bottom, oklch(0.64 0.11 125 / 0.08) 1px, transparent 1px);
     background-size: 68px 68px;
 
     mask-image: radial-gradient(circle at 50% 30%, #000 0%, transparent 78%);
